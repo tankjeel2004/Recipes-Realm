@@ -8,13 +8,13 @@
         <input type="email" placeholder="Enter your email" required name="email">
       </div>
       <div class="input-box">
-        <input type="password" placeholder="Create password" required name="Password">
+        <input type="password" placeholder="Create password" required name="password">
       </div>
       <div class="input-box">
         <input type="password" placeholder="Confirm password" required>
       </div>
       <div class="input-box button">
-        <input type="Submit" value="Register Now">
+        <input type="Submit" value="Register Now" name="submit">
       </div>
       <div class="text">
         <h3>Already have an account? <a href="login.php">Login now</a></h3>

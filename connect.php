@@ -1,27 +1,35 @@
 <?php
+// Connection of Database
+$servername="localhost";
+$username="root";
+$SPassword="jeel0004";
+$database="Project_1";
 
-$username = $_POST['user_name'];
-$email = $_POST['email'];
-$password = $_POST['Password'];
+$connection=mysqli_connect($servername,$username,$SPassword,$database);
+if(!$connection)
+{
+	die("Error".mysqli_error($connection));
+}
 
-// connection of database
 
-$connection = new mysqli('localhost','root','jeel0004','Project_1');
-if ($connection->connect_error) 
+if(isset($_POST['submit']))
+{
+	$username=$_POST['user_name'];
+	$email=$_POST['email'];
+	$password=$_POST['password'];
+
+	$sql="insert into Project_1(user_name,email,Password) values('$username','$email','$password')";
+
+	if(mysqli_query($connection,$sql))
 	{
-		die('Connection Failed : ' .$connection->connect_error);
+		echo "<script>alert('Registration Done Successfully')</script>";
 	}
-else
+	else
 	{
-		$data = $connection->prepare("insert into Project_1(user_name,email,password) values(?, ?, ?)");
-		$data->bind_param("sss",$username, $email, $password);
-		$data->execute();
-		echo "Successfull";
-		$data->close();
-		$connection->close();
+		echo "Something Went Wrong".mysqli_error($connection);
 	}
+	mysqli_close($connection);
 
-
-
+}
 
 ?>
