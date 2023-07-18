@@ -1,14 +1,17 @@
 <?php
-// Connection of Database
-$servername="localhost";
+
+$servername="127.0.0.1";
 $username="root";
 $SPassword="jeel0004";
 $database="Project_1";
+// echo "Before";
+$connection= new mysqli($servername,$username,$SPassword,$database);
+// echo "After";
+// echo isset($_POST['submit']);
 
-$connection=mysqli_connect($servername,$username,$SPassword,$database);
-if(!$connection)
+if($connection === false)
 {
-	die("Error".mysqli_error($connection));
+    die("ERROR: Could not connect. " . $connection->connect_error);
 }
 
 
@@ -18,17 +21,16 @@ if(isset($_POST['submit']))
 	$email=$_POST['email'];
 	$password=$_POST['password'];
 
-	$sql="insert into Project_1(user_name,email,Password) values('$username','$email','$password')";
-
-	if(mysqli_query($connection,$sql))
+	$sql="insert into User_info (user_name, email, Password) values ('$username', '$email', '$password')";
+	if($connection->query($sql) === true)
 	{
 		echo "<script>alert('Registration Done Successfully')</script>";
 	}
 	else
 	{
-		echo "Something Went Wrong".mysqli_error($connection);
+		echo "Something Went Wrong" . $connection->error;
 	}
-	mysqli_close($connection);
+	$connection->close();
 
 }
 
