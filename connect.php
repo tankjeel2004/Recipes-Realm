@@ -1,9 +1,9 @@
 <?php
 
-$servername="127.0.0.1";
+$servername="localhost";
 $username="root";
 $SPassword="jeel0004";
-$database="Project_1";
+$database="recipes_realm";
 // echo "Before";
 $connection= new mysqli($servername,$username,$SPassword,$database);
 // echo "After";
@@ -21,7 +21,7 @@ if(isset($_POST['submit']))
 	$email=$_POST['email'];
 	$password=$_POST['password'];
 
-	$sql="insert into User_info (user_name, email, Password) values ('$username', '$email', '$password')";
+	$sql="insert into user (username, email, password) values ('$username', '$email', '$password')";
 	if($connection->query($sql) === true)
 	{
 		echo "<script>alert('Registration Done Successfully')</script>";
