@@ -2,7 +2,7 @@
     <h2>Registration</h2>
     <form action="connect.php" method="POST">
       <div class="input-box">
-        <input type="text" placeholder="Enter your Username" required name="user_name">
+        <input type="text" placeholder="Enter your Username" required name="username">
       </div>
       <div class="input-box">
         <input type="email" placeholder="Enter your email" required name="email">

@@ -17,7 +17,7 @@ if($connection === false)
 
 if(isset($_POST['submit']))
 {
-	$username=$_POST['user_name'];
+	$username=$_POST['username'];
 	$email=$_POST['email'];
 	$password=$_POST['password'];
 
