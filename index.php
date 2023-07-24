@@ -60,11 +60,66 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-   
-    <hr>
-   
 
-  </body>
+
+<h1 align="center">Discover More</h1>
+
+<div class="card">
+  <h5 class="card-header">Gujarati</h5>
+  <div class="card-body">
+    <h5 class="card-title">Title</h5>
+    <p class="card-text">Description</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+<div class="card">
+  <h5 class="card-header">Punjabi</h5>
+  <div class="card-body">
+    <h5 class="card-title">Title</h5>
+    <p class="card-text">Description</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+<div class="card">
+  <h5 class="card-header">Rajashtani</h5>
+  <div class="card-body">
+    <h5 class="card-title">Title</h5>
+    <p class="card-text">Description</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+<div class="card">
+  <h5 class="card-header">South Indian</h5>
+  <div class="card-body">
+    <h5 class="card-title">Title</h5>
+    <p class="card-text">Description</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+<div class="card">
+  <h5 class="card-header">Fast Food</h5>
+  <div class="card-body">
+    <h5 class="card-title">Title</h5>
+    <p class="card-text">Description</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+<div class="card">
+  <h5 class="card-header">Others</h5>
+  <div class="card-body">
+    <h5 class="card-title">Title</h5>
+    <p class="card-text">Description</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+</div>
+
+<hr>
+
+
+
+
+</body>
 </html>
 
 
