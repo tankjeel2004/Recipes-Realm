@@ -62,59 +62,34 @@
 </div>
 
 
-<h1 align="center">Discover More</h1>
+<h1 align="center" class="clr_dm">Discover More</h1>
 
 <div class="card">
-  <h5 class="card-header">Gujarati</h5>
+  <h5 class="card-header">Gujarati Cuisines</h5>
   <div class="card-body">
-    <h5 class="card-title">Title</h5>
-    <p class="card-text">Description</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title">Undhiyu</h5>
+    <p class="card-text">Undhiyu is prepared in a clay pot called matla. Layers of green beans, plantains, purple yam, muthia are put in the earthen pot along with green garlic, carom and grated coconut. The matla is then hung upside down and fired. The slow cooking lends the vegetables a distinct, smoky flavour.</p>
+    <a href="#" class="btn btn-primary">View Recipe</a>
   </div>
 </div>
 <div class="card">
-  <h5 class="card-header">Punjabi</h5>
+  <h5 class="card-header">Punjabi Cuisines</h5>
   <div class="card-body">
-    <h5 class="card-title">Title</h5>
-    <p class="card-text">Description</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-<div class="card">
-  <h5 class="card-header">Rajashtani</h5>
-  <div class="card-body">
-    <h5 class="card-title">Title</h5>
-    <p class="card-text">Description</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title">Paneer Tikka</h5>
+    <p class="card-text">The paneer tikka, sometimes known as “vegetarian chicken,” holds a unique position in Punjabi cuisine. When it comes to vegetarian appetizers, this soft cottage cheese delicacy, chargrilled, is the first that comes to mind.</p>
+    <a href="#" class="btn btn-primary">View Recipe</a>
   </div>
 </div>
 <div class="card">
   <h5 class="card-header">South Indian</h5>
   <div class="card-body">
-    <h5 class="card-title">Title</h5>
-    <p class="card-text">Description</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-<div class="card">
-  <h5 class="card-header">Fast Food</h5>
-  <div class="card-body">
-    <h5 class="card-title">Title</h5>
-    <p class="card-text">Description</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-<div class="card">
-  <h5 class="card-header">Others</h5>
-  <div class="card-body">
-    <h5 class="card-title">Title</h5>
-    <p class="card-text">Description</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title">Dosas</h5>
+    <p class="card-text">A traditional breakfast food made of fermented rice-and-lentil batter, a dosa is much like a crispy thin crepe. It’s accompanied by sambar (a hot lentil soup) and coconut chutney.</p>
+    <a href="#" class="btn btn-primary">View Recipe</a>
   </div>
 </div>
 </div>
 
-<hr>
 
 </body>
 </html>

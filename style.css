@@ -7,6 +7,7 @@
   }
   body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #FFA323;
   }
   nav{
     background: #002F35;
@@ -93,8 +94,28 @@
 .carousel 
 {
   position: relative;
+  padding: 5px;
 }
 
+.clr_dm
+{
+  color: #FFA323;
+  background:#002F35;
+  padding: 20px;
+}
+
+.card-header
+{
+  color: #A78295;
+  background: #3F2E3E;
+  font-size: 30px;
+}
+
+.card-body
+{
+  color: #331D2C;
+  background: #EFE1D1;
+}
 
 
 
