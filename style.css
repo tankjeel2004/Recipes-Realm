@@ -7,7 +7,7 @@
   }
   body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #FFA323;
+    background-color: wheat;
   }
   nav{
     background: #002F35;
@@ -38,10 +38,16 @@
     text-transform: uppercase;
     text-decoration: none;
   }
-  a.active,a:hover{
-    background: #FFA323;
+
+  .active:hover
+  {
+    background: wheat;
     transition: .5s;
   }
+  /* a.active,a:hover{
+    background: wheat;
+    transition: .5s;
+  } */
  
   @media (max-width: 952px){
     label.logo{
@@ -116,6 +122,99 @@
   color: #331D2C;
   background: #EFE1D1;
 }
+
+footer
+{
+  background-color: #331D2C;
+}
+
+.footer-container
+{
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+
+.social-icons
+{
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons a 
+{
+  text-decoration: none;
+  padding: 10px;
+  background-color: #EFE1D1;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.social-icons a i
+{
+  font-size: 2em;
+  color: #331D2C;
+  opacity: 0.9;
+}
+
+.social-icons a:hover
+{
+  background-color: #3F2E3E;
+  transition: 0.5s;
+}
+
+.social-icons a:hover i
+{
+  color: wheat;
+  transition: 0.5s;
+}
+
+.footer-nav
+{
+  margin: 30px 0;
+}
+
+.footer-nav ul
+{
+  display: flex;
+  justify-content: center;
+}
+
+.footer-nav ul li a
+{
+  color: #EFE1D1;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.footer-nav ul li a:hover
+{
+  opacity: 1;
+}
+
+.footer-bottom
+{
+  background-color: #331D2C;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer-bottom p
+{
+  color: #EFE1D1;
+}
+
+.designer
+{
+  opacity: 0.8;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
+
 
 
 

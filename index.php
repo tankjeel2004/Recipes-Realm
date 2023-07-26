@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous" defer></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="script.js"></script>
   </head>
   <body>
@@ -16,9 +17,9 @@
       <label class="logo">Recipes Realm</label>
       <ul>
         <li><a class="active" href="index.php">Home</a></li>
-        <li><a href="recipes.php">Recipes</a></li>
-        <li><a href="addrecipes.php">+ Add Recipe</a></li>
-        <li><a href="signup.php">Sign Up</a></li>
+        <li><a class="active" href="recipes.php">Recipes</a></li>
+        <li><a class="active" href="addrecipes.php">+ Add Recipe</a></li>
+        <li><a class="active" href="signup.php">Sign Up</a></li>
       </ul>
     </nav>
 
@@ -90,6 +91,27 @@
 </div>
 </div>
 
+<footer>
+<div class="footer-container">
+  <div class="social-icons">
+      <a href=""><i class="fa-brands fa-facebook"></i></a>
+      <a href=""><i class="fa-brands fa-instagram"></i></a>
+      <a href=""><i class="fa-brands fa-twitter"></i></a>
+      <a href=""><i class="fa-brands fa-telegram"></i></a>
+  </div>
+  <div class="footer-nav">
+    <ul>
+      <li><a href="">Home</a></li>
+      <li><a href="">Categories</a></li>
+      <li><a href="">Recipes</a></li>
+      <li><a href="">Our Team</a></li>
+    </ul>
+  </div>
+</div>
+<div class="footer-bottom">
+    <p>Copyright &copy;2023 Designed By <span class="designer">Poojan & Jeel</span></p>
+  </div>
+</footer>
 
 </body>
 </html>
