@@ -1,13 +1,15 @@
 <?php
 
-$servername="localhost";
-$username="root";
-$SPassword="jeel0004";
-$database="recipes_realm";
-// echo "Before";
-$connection= new mysqli($servername,$username,$SPassword,$database);
-// echo "After";
+// $servername="localhost";
+// $username="root";
+// $SPassword="jeel0004";
+// $database="recipes_realm";
+//  echo "Before";
+// $connection = new mysqli($servername,$username,$SPassword,$database);
+//  echo "After";
 // echo isset($_POST['submit']);
+$mysqli = new mysqli("localhost","root","jeel0004","recipes_realm");
+
 
 if($connection === false)
 {
