@@ -36,13 +36,13 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #002F35;
+  background: #F7F1E5;
 }
 .wrapper{
   position: relative;
   max-width: 430px;
   width: 100%;
-  background: #FFA323;
+  background: #898121;
   padding: 34px;
   border-radius: 6px;
   box-shadow: 0 5px 10px rgba(0,0,0,0.2);
@@ -51,7 +51,7 @@ body{
   position: relative;
   font-size: 22px;
   font-weight: 600;
-  color: #333;
+  color: #E7B10A;
 }
 .wrapper h2::before{
   content: '';
@@ -61,7 +61,7 @@ body{
   height: 3px;
   width: 28px;
   border-radius: 12px;
-  background: #4070f4;
+  background: #E7B10A;
 }
 .wrapper form{
   margin-top: 30px;
@@ -98,14 +98,14 @@ form h3{
   margin-left: 10px;
 }
 .input-box.button input{
-  color: #fff;
+  color: #4C4B16;
   letter-spacing: 1px;
   border: none;
-  background: #4070f4;
+  background: #E7B10A;
   cursor: pointer;
 }
 .input-box.button input:hover{
-  background: #0e4bf1;
+  background: #F7F1E5;
 }
 form .text h3{
  color: #333;
@@ -113,7 +113,7 @@ form .text h3{
  text-align: center;
 }
 form .text h3 a{
-  color: #4070f4;
+  color: #E7B10A;
   text-decoration: none;
 }
 form .text h3 a:hover{
