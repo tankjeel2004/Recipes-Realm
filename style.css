@@ -259,6 +259,22 @@ footer
   }
 }
 
+/* addrecipes page */
+
+ .navbar-text
+{
+  font-size: 50px;
+}
+
+.container-fluid
+{
+  background: #4C4B16;
+}
+
+.form-label
+{
+  font-size: 30px;
+} 
 
 
 
