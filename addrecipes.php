@@ -13,6 +13,7 @@
   </div>
 </nav>
 <hr>
+<hr>
 
 <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">Recipe Title :</label>
@@ -29,6 +30,13 @@
 <div class="mb-3">
   <label for="exampleFormControlTextarea1" class="form-label">Instructions :</label>
   <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+</div>
+
+<hr>
+
+<div class="btn-header">
+  <button class="btn1">Add Recipe</button>
+  <button class="btn2">Cancel</button>
 </div>
 
 
