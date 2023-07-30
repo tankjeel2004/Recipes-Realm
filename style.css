@@ -288,6 +288,41 @@ footer
   width: 100px;
 }
 
+/* recipes page */
+
+.navbar-brand
+{
+  color: #E7B10A;
+  font-size: 40px;
+}
+
+.navbar-brand:hover
+{
+  color: #E7B10A;
+}
+
+.nav-link
+{
+  color: #E7B10A;
+  font-size: 20px;
+}
+
+.nav-link:hover
+{
+  color: #F7F1E5;
+  background-color: #898121;
+}
+
+.dropdown-menu
+{
+  background: #F7F1E5;
+}
+
+.dropdown-item:hover
+{
+  background: #898121;
+  color: #F7F1E5;
+}
 
 
 
