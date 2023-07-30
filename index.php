@@ -110,7 +110,7 @@
 <div class="footer-container">
   <div class="social-icons">
       <a href=""><i class="fa-brands fa-facebook"></i></a>
-      <a href=""><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.instagram.com/tankjeel/"><i class="fa-brands fa-instagram"></i></a>
       <a href=""><i class="fa-brands fa-twitter"></i></a>
       <a href=""><i class="fa-brands fa-telegram"></i></a>
   </div>
