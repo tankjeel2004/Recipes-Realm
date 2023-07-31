@@ -8,7 +8,8 @@
 // $connection = new mysqli($servername,$username,$SPassword,$database);
 //  echo "After";
 // echo isset($_POST['submit']);
-$mysqli = new mysqli("localhost","root","jeel0004","recipes_realm");
+include 'signup.php';
+$mysqli = new mysqli("localhost","root","","recipes_realm");
 
 
 if($connection === false)

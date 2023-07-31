@@ -1,6 +1,6 @@
  <div class="wrapper">
     <h2>Registration</h2>
-    <form action="/connect.php" method="POST">
+    <form action="connect.php" method="POST">
       <div class="input-box">
         <input type="text" placeholder="Enter your Username" required name="username">
       </div>
