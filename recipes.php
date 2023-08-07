@@ -36,9 +36,16 @@
     </div>
   </div>
 </nav>
-
-
 <br>
+
+<div class="recipe-card" style="width: 18rem;">
+<img src="https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" class="recipe-card-img-top" alt="...">
+<div class="recipe-card-body">
+  <h5 class="recipe-card-title">Recipe Title</h5>
+  <p class="recipe-card-text">Description Of Recipe</p>
+  <a href="#" class="recipe-card-button">Show Recipe</a>
+</div>
+</div>
 
 
 

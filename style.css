@@ -324,6 +324,43 @@ footer
   color: #F7F1E5;
 }
 
+.recipe-card
+{
+  width: 18rem;
+  height: 18rem;
+  border: solid;
+  border-radius: 6px;
+}
+
+.recipe-card-title
+{
+  text-align: center;
+}
+
+.recipe-card-text
+{
+  text-align: center;
+}
+
+.recipe-card-button
+{
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  border: solid 3px #4C4B16;
+  color: #E7B10A;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 20px;
+  background: #4C4B16;
+}
+
+.recipe-card-img-top
+{
+  width: fit-content;
+  height: fit-content;
+}
+
 
 
 
