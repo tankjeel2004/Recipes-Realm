@@ -1,6 +1,6 @@
  <div class="wrapper">
     <h2>Registration</h2>
-    <form action="connect.php" method="POST">
+    <form action="connect.php" method="Post">
       <div class="input-box">
         <input type="text" placeholder="Enter your Username" required name="username">
       </div>
@@ -53,7 +53,7 @@ body{
   font-weight: 600;
   color: #E7B10A;
 }
-.wrapper h2::before{
+/* .wrapper h2::before{
   content: '';
   position: absolute;
   left: 0;
@@ -61,7 +61,7 @@ body{
   height: 3px;
   width: 28px;
   border-radius: 12px;
-  background: #E7B10A;
+  background: #E7B10A; */
 }
 .wrapper form{
   margin-top: 30px;

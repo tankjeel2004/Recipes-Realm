@@ -106,20 +106,22 @@
 .carousel 
 {
   position: relative;
-  padding: 5px;
+  padding: 0;
+  margin: 0;
 }
 
 .clr_dm
 {
   color: #E7B10A;
   background:#4C4B16;
-  padding: 20px;
+  padding: 30px;
+  margin: 0;
 }
 
 .card
 {
-    padding: 50px;
-    margin: 5px;
+    padding: 90px;
+    margin: 3px;
     font-size: 30px;
     text-align: center;
     background: #4C4B16;
@@ -266,9 +268,17 @@ footer
   font-size: 50px;
 }
 
+.navbar-bg-body-tertiary
+{
+  margin: 0;
+  padding: 0;
+}
+
 .container-fluid
 {
   background: #4C4B16;
+  padding: 13px;
+  text-align: center;
 }
 
 .form-label
@@ -280,12 +290,25 @@ footer
 {
   height: 40px;
   width: 100px;
+  border: solid #898121;
+  font-size: 35px;
+  text-decoration: none;
+  border-radius: 8px;
 }
 
 .btn2
 {
   height: 40px;
   width: 100px;
+  border: solid #898121;
+  font-size: 35px;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.btn-header
+{
+  text-align: center;
 }
 
 /* recipes page */
@@ -360,6 +383,8 @@ footer
   width: fit-content;
   height: fit-content;
 }
+
+
 
 
 

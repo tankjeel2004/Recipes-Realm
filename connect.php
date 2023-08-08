@@ -1,40 +1,33 @@
 <?php
+$servername="localhost";
+$susername="root";
+$spassword="";
+$dbname="recipes_realm";
 
-// $servername="localhost";
-// $username="root";
-// $SPassword="jeel0004";
-// $database="recipes_realm";
-//  echo "Before";
-// $connection = new mysqli($servername,$username,$SPassword,$database);
-//  echo "After";
-// echo isset($_POST['submit']);
-include 'signup.php';
-$mysqli = new mysqli("localhost","root","","recipes_realm");
+$con = mysqli_connect($servername,$susername,$spassword,$dbname);
 
-
-if($connection === false)
+if($con)
 {
-    die("ERROR: Could not connect. " . $connection->connect_error);
+    $username = $_POST['username'];
+	$email = $_POST['email'];
+	$password = $_POST['password'];
+
+	$query = $con->prepare("insert into user(username,email,password) values(?,?,?)");
+	$query->bind_param("sss",$username, $email, $password);
+	$query->execute();
+
+	echo "<script>alert('Registration Done Successfully')</script>";
+	$query->close();
+	$con->close();
 }
-
-
-if(isset($_POST['submit']))
+else
 {
-	$username=$_POST['username'];
-	$email=$_POST['email'];
-	$password=$_POST['password'];
-
-	$sql="insert into user (username, email, password) values ('$username', '$email', '$password')";
-	if($connection->query($sql) === true)
-	{
-		echo "<script>alert('Registration Done Successfully')</script>";
-	}
-	else
-	{
-		echo "Something Went Wrong" . $connection->error;
-	}
-	$connection->close();
-
+	echo "Error Occured";
 }
 
 ?>
+
+ 
+
+
+

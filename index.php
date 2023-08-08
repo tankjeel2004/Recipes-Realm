@@ -71,7 +71,7 @@
       <div class="card-body">
         <h5 class="card-title">Gujarati Cuisine</h5>
        
-        <a href="#" class="btn btn-primary">View Recipes</a>
+        <a href="recipes.php" class="btn btn-primary">View Recipes</a>
       </div>
     </div>
   </div>
@@ -80,7 +80,7 @@
       <div class="card-body">
         <h5 class="card-title">Punjabi Cuisine</h5>
        
-        <a href="#" class="btn btn-primary">View Recipes</a>
+        <a href="recipes.php" class="btn btn-primary">View Recipes</a>
       </div>
     </div>
   </div>
@@ -91,7 +91,7 @@
       <div class="card-body">
         <h5 class="card-title">South Indian Cuisine</h5>
        
-        <a href="#" class="btn btn-primary">View Recipes</a>
+        <a href="recipes.php" class="btn btn-primary">View Recipes</a>
       </div>
     </div>
   </div>
@@ -100,7 +100,7 @@
       <div class="card-body">
         <h5 class="card-title">Explore More</h5>
         
-        <a href="#" class="btn btn-primary">Show All</a>
+        <a href="recipes.php" class="btn btn-primary">Show All</a>
       </div>
     </div>
   </div>
@@ -116,10 +116,10 @@
   </div>
   <div class="footer-nav">
     <ul>
-      <li><a href="">Home</a></li>
-      <li><a href="">Categories</a></li>
-      <li><a href="">Recipes</a></li>
-      <li><a href="">Our Team</a></li>
+      <li><a href="index.php">Home</a></li>
+      <li><a href="#">Categories</a></li>
+      <li><a href="recipes.php">Recipes</a></li>
+      <li><a href="about.php">About Us</a></li>
     </ul>
   </div>
 </div>

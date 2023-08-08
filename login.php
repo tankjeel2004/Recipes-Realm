@@ -47,7 +47,7 @@ body{
   font-weight: 600;
   color: #E7B10A;
 }
-.wrapper h2::before{
+/* .wrapper h2::before{
   content: '';
   position: absolute;
   left: 0;
@@ -56,7 +56,7 @@ body{
   width: 28px;
   border-radius: 12px;
   background: #E7B10A;
-}
+} */
 .wrapper form{
   margin-top: 30px;
 }

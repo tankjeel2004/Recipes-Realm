@@ -1,3 +1,4 @@
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -5,38 +6,47 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 
-    <nav class="navbar bg-body-tertiary">
+    <nav class="navbar-bg-body-tertiary">
   <div class="container-fluid">
     <span class="navbar-text">
-      Add Your Recipe :
+      Create Your Own Recipe :
     </span>
   </div>
 </nav>
-<hr>
-<hr>
-
+<br>
+<br>
+<form method="POST">
 <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">Recipe Title :</label>
-  <input type="text" class="form-control" id="exampleFormControlInput1">
+  <input type="text" class="form-control" name="recipe_title">
 </div>
 <div class="mb-3">
   <label for="exampleFormControlTextarea1" class="form-label">Description :</label>
-  <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+  <textarea class="form-control" name="recipe_description" rows="2"></textarea>
 </div>
 <div class="mb-3">
   <label for="exampleFormControlTextarea1" class="form-label">Ingredients :</label>
-  <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+  <textarea class="form-control" name="recipe_ingredients" rows="6"></textarea>
 </div>
 <div class="mb-3">
   <label for="exampleFormControlTextarea1" class="form-label">Instructions :</label>
-  <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+  <textarea class="form-control" name="recipe_instructions" rows="4"></textarea>
 </div>
+</form>
 
 <hr>
 
 <div class="btn-header">
-  <button class="btn1">Add Recipe</button>
-  <button class="btn2">Cancel</button>
+  <input type="submit" name="add_recipe" value="Add Recipe">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <input type="reset" value="Reset">
 </div>
+</form>
+
+
+   
+ 
+
+
 
 
