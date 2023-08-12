@@ -66,7 +66,7 @@
 <h1 align="center" class="clr_dm">Discover More</h1>
 
 <div class="row">
-  <div class="col-sm-6 mb-3 mb-sm-0">
+  <div class="col-sm-6 mb-3 mb-sm-0 m-0 p-0">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Gujarati Cuisine</h5>
@@ -75,7 +75,7 @@
       </div>
     </div>
   </div>
-  <div class="col-sm-6">
+  <div class="col-sm-6 m-0 p-0">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Punjabi Cuisine</h5>
@@ -86,7 +86,7 @@
   </div>
 </div>
 <div class="row">
-  <div class="col-sm-6 mb-3 mb-sm-0">
+  <div class="col-sm-6 mb-3 mb-sm-0 m-0 p-0">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">South Indian Cuisine</h5>
@@ -95,7 +95,7 @@
       </div>
     </div>
   </div>
-  <div class="col-sm-6">
+  <div class="col-sm-6 m-0 p-0">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Explore More</h5>

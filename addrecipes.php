@@ -15,7 +15,7 @@
 </nav>
 <br>
 <br>
-<form method="POST">
+<form method="Post" action="recipesdb.php"> 
 <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">Recipe Title :</label>
   <input type="text" class="form-control" name="recipe_title">
@@ -32,16 +32,14 @@
   <label for="exampleFormControlTextarea1" class="form-label">Instructions :</label>
   <textarea class="form-control" name="recipe_instructions" rows="4"></textarea>
 </div>
-</form>
-
-<hr>
 
 <div class="btn-header">
-  <input type="submit" name="add_recipe" value="Add Recipe">
+  <input type="submit" name="add_recipe" value="Add Recipe" class="addrecipe-btn">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <input type="reset" value="Reset">
+  <input type="reset" value="Cancel" class="addrecipe-btn">
 </div>
 </form>
+
 
 
    
